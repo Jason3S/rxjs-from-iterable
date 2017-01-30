@@ -1,0 +1,41 @@
+{
+  "name": "rxjs-from-iterable",
+  "version": "1.0.0",
+  "description": "rxjs helper functions for working with Map, Set, Generator, and other Iterables.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc --watch -p .",
+    "test": "NODE_ENV=test mocha --compilers ts:ts-node/register --recursive --bail \"src/**/*.test.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason3S/rxjs-from-iterable.git"
+  },
+  "keywords": [
+    "rxjs 5.0",
+    "Iterable",
+    "Iterator",
+    "rxjs"
+  ],
+  "author": "Jason Dent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jason3S/rxjs-from-iterable/issues"
+  },
+  "homepage": "https://github.com/Jason3S/rxjs-from-iterable#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.38",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "rxjs": "^5.0.3",
+    "ts-node": "^2.0.0",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "rxjs": "^5.0.3"
+  }
+}
