@@ -1,6 +1,6 @@
 {
   "name": "rxjs-from-iterable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "rxjs helper functions for working with Map, Set, Generator, and other Iterables.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
