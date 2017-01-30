@@ -1,7 +1,7 @@
 # rxjs-from-iterable
 
 
-This is a simple Typescript library to help with converting iterables like Sets, Maps, and Generators into Rx.Observables.
+This is a simple Typescript library to help with converting iterables like [Sets](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), and [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) into [Rx.Observables](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html).
 
 This is a stop-gap library until Typescript 2.2, which extends support for Iterable to ES3 and ES5.
 
