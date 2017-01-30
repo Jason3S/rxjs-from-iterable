@@ -7,7 +7,7 @@ This is a stop-gap library until Typescript 2.2, which extends support for Itera
 
 ## Installation
 ```sh
-npm install -save rxjs-from-iterable rxjs
+npm install --save rxjs-from-iterable rxjs
 ```
 
 ## Usage
